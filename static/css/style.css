@@ -1,0 +1,64 @@
+body{
+	background: #000000 !important;
+}
+
+@media (min-width:768px) {
+	.carousel-item {
+		height: 400px;
+	}
+}
+@media (max-width:768px) {
+	.carousel-item {
+		height: 280px;
+	}
+	.carousel-item img {
+		min-height: 280px;
+	}
+	.carousel-caption h1 {
+		font-size: 24px;
+	}
+	.carousel-caption p {
+		font-size: 12px;
+	}
+}
+
+.carousel-item {
+	background: #000000;
+}
+.carousel-item img {
+	opacity: .8;
+}
+
+
+.bg-dark {
+	background-color: #212121 !important;
+}
+
+.navbar-brand img {
+	width: 32px;
+	height: 32px;
+}
+
+
+h1 {
+	color:  #d4e6f1;
+}
+
+.main-content {
+	color:  #fdfefe ;
+}
+.page-footer {
+	color:   #797d7f;
+}
+a {
+    color:#797d7f;
+}
+.album {
+	background: #FFFFFF;
+}
+.navbar {
+	background: #EFFBFB !important;
+}
+#carouselExampleFade {
+margin-top: 67px;
+}
